@@ -1,0 +1,40 @@
+﻿@model List<Web_TMDT.Models.TShirt>
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/wwwroot/js/JavaScript_slider.js"></script>
+<link rel="stylesheet" href="~/wwwroot/css/Index.css"/>
+<div class="app">
+    <div class="slider">
+        <div class="slider_img">
+            <img class="display_block" src="~/wwwroot/img/files (convert.io)/slider_1.png" />
+            <img class="" src="~/wwwroot/img/files (convert.io)/slider_2.png" />
+            <img class="" src="~/wwwroot/img/files (convert.io)/slider_3.png" />
+        </div>
+        <div class="slider_dot">
+            <span class="slider-span"></span>
+            <span class=""></span>
+            <span class=""></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class=t-shirt>
+            @foreach (var item in Model)
+            {
+                <div class="t-shirt__item">
+                    <div class="item_img">
+                        <img src""/>
+                        <span>@item.Discount</span>
+                    </div>
+                    <h3>@item.Name</h3>
+                    <div class="item_price">
+                        <span>@item.OriginalPrice</span>
+                        <span>@item.DiscountedPrice</span>
+                    </div>
+                </div>
+            }
+        </div>
+        <div></div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+﻿.display_block {
+    display: block !important;
+}
+/*------------------*/
+.slider {
+    position:relative;
+}
+.slider_img {
+    margin: 0rem 3rem;
+    align-items: center;
+}
+
+.slider_img img{
+    width: 100%;
+    display: none;
+}
+.slider_dot {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    bottom: 2rem;
+    right: 50%;
+    left: auto;
+    z-index: 2;
+}
+.slider_dot span {
+    width: 1.5rem;
+    height: 0.4rem;
+    background-color: #ccc;
+}
+.slider-span {
+    width: 3rem !important;
+    background-color: #000 !important;
+}

@@ -1,0 +1,221 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.header {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: end;
+    padding: 0 3rem;
+    height: 5rem;
+}
+
+.navbar__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0.5rem 1.5rem;
+}
+
+    .navbar__input input {
+        padding: 1rem 1rem;
+        width: 250px;
+        height: 100%;
+        outline: none;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .navbar__input i {
+        position: absolute;
+        font-size: 1.6rem;
+        width: 40px;
+        padding: 1.2rem;
+        background: #ccc;
+        cursor: pointer;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+        .navbar__input i:hover {
+            opacity: 0.8;
+        }
+
+.navbar__icons {
+    width: 4rem;
+    margin: 0.5rem 0;
+    position: relative;
+}
+
+    .navbar__icons i {
+        color: #ccc;
+        font-size: 3.5rem;
+    }
+
+        .navbar__icons i:hover {
+            color: red;
+        }
+
+    .navbar__icons span {
+        position: absolute;
+        top: -0.4rem;
+        right: -0.8rem;
+        display: grid;
+        place-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: red;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+    }
+
+.menu {
+    margin: 0 3rem;
+}
+
+.menu__logo {
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7rem;
+}
+
+    .menu-list li {
+        list-style-type: none;
+    }
+
+    .menu-list a {
+        text-decoration: none;
+        color: #333;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+    }
+
+        .menu-list a:hover {
+            opacity: 0.7;
+        }
+    .header__list {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        height: 5rem;
+    }
+    .header__list li {
+        list-style-type: none;
+    }
+    .header__list a{
+        font-size: 1.5rem;
+        color: #333;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+/*Footer*/
+.footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem 5rem 3rem;
+    color: #999;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+    .footer h2 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    .footer a {
+        text-decoration: none;
+        color: #999;
+    }
+    .footer li {
+        list-style-type: none;
+        font-size: 1.8rem;
+    }
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    min-width: 20rem;
+}
+.footer__logo h2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.footer__input {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    max-width: 40rem;
+}
+.input_1 {
+    position: relative;
+}
+.input_1 i{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin: 0.3rem;
+    width: 3.4rem;
+    background-color: #646464;
+    display: grid;
+    place-items: center;
+    color: #ccc;
+    font-size: 1.6rem;
+}
+.footer__input input {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    height: 4rem;
+    width:100%;
+}
+.footer__icon ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.footer__icon img {
+    width: 4rem;
+}
+.footer__input p {
+    font-size: 1.6rem;
+}
+.footer__about {
+    min-width: 15rem;
+}
+.footer__about ul {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.footer__policy {
+    min-width: 15rem;
+}
+.footer__policy ul{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+/*end*/
